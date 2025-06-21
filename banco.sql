@@ -1,0 +1,11 @@
+
+CREATE DATABASE IF NOT EXISTS achadinhos CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE achadinhos;
+
+CREATE TABLE produtos (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nome VARCHAR(255) NOT NULL,
+  preco VARCHAR(255) NOT NULL,
+  link TEXT NOT NULL,
+  imagem VARCHAR(255) NOT NULL
+);
